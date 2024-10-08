@@ -1,0 +1,11 @@
+if game.PlaceId == 14561998168 then
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/kitsun6534/heaven-stand/refs/heads/main/yukisuoulovers"))()
+elseif game.PlaceId == 10449761463 then
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/kitsun6534/insta-kill/refs/heads/main/yukisuoulovers"))()
+else local CoreGui = game:GetService("StarterGui")
+
+CoreGui:SetCore("SendNotification", {
+	Title = "(Loader)";
+	Text = "game not support";
+	Duration = 5;
+})

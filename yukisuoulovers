@@ -2,6 +2,8 @@ if game.PlaceId == 14561998168 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/kitsun6534/heaven-stand/refs/heads/main/yukisuoulovers"))()
 elseif game.PlaceId == 10449761463 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/kitsun6534/insta-kill/refs/heads/main/yukisuoulovers"))()
+elseif game.PlaceId == 15467245730 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kitsun6534/opbg/refs/heads/main/yukisuoulovers"))()
 else
     local StarterGui = game:GetService("StarterGui")
     

@@ -8,6 +8,7 @@ elseif placeId == 15467245730 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/kitsun6534/opbg/refs/heads/main/yukisuoulovers"))()
 elseif placeId == 16732694052 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/kitsun6534/fisch/refs/heads/main/ezfisch321"))()
+else
     local StarterGui = game:GetService("StarterGui")
     
     StarterGui:SetCore("SendNotification", {
